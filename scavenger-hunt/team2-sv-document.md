@@ -20,13 +20,21 @@ Offenses triggered in the system were:
 
 ## The Setup
 
+During the Scavenger Hunt on the Cybersecurity Range, we familiarized ourselves with the range, tools, and technologies that we'll be using throughout the Spring semester. The Scavenger Hunt was designed for us to explore the environment within the range. We were given a list of tasks to complete to learn more about the tools in Cybersecurity.
+
 ## The Network Map
 
-## The Paloalto Firewall
+A cool feature of the Range is that we were provided with a network map that provided with the services and username and passwords for us to access all the different servers. Most networks don't have this, and a lot of businesses forget to write down critical information that could aid Cybersecurity professionals in their hunt for incidents. 
 
 ## Palo Alto Firewall
 
-### Activity Logs
+![Palo Alto Firewall Logs](/scavenger-hunt/img/scavengerHunt_Firewall_logs.png "Palo Alto Firewall Logs")
+
+The Palo Alto Firewall is a place for rules to be set and manage the flow of network traffic in and out of the organization's network.
+
+![Palo Alto Firewall Ping Query](/scavenger-hunt/img/scavengerHunt_Firewall_pingQuery.png "Palo Alto Firewall Ping Query")
+
+The firewall is able to track ICMP requests on the network.
 
 ## Qradar
 
@@ -34,7 +42,19 @@ Offenses triggered in the system were:
 
 ## Domain Controller
 
+Domain Controllers are a nifty way for organizations to manage users that have access to technology. Due to licenses, only one person was able to access the Domain Controller at a time.
+
+![Domain Controller](/scavenger-hunt/img/scavengerHunt_domainController_locateUserGroups.png "Domain Controller")
+
+You can manage users and change their passwords or unlock their accounts:
+
+![Domain Controller User Password](/scavenger-hunt/img/scavengerHunt_domainController_locateUserChangePasswod.png "Domain Controller User Password")
+
 ## DMZ Firewall
+
+A DMZ is a part of the network that has special rules for services that are exposed to the internet. 
+
+![DMZ](/scavenger-hunt/img/scavengerHunt_dmzFirewall_adminPage.png "DMZ Firewall")
 
 ## Zenoss
 
