@@ -1,7 +1,6 @@
 # Scavenger Hunt
 
-During the scavenger hunt, the team was provided with a set of
- instrtuctions to follow in order to find the required items
+During the scavenger hunt, the team was provided with a set of instructuctions to follow in order to find the required items
 
 Items to find:
 
@@ -18,3 +17,32 @@ Offenses triggered in the system were:
   * An account failed to log on
 
 * Purpose of QRadaris to log and trigger alerts or intrusions in a system, it also establishes and defines rules
+
+## The Setup
+
+## The Network Map
+
+## The Paloalto Firewall
+
+## Palo Alto Firewall
+
+### Activity Logs
+
+## Qradar
+
+### Qradar Offenses Tab
+
+## Domain Controller
+
+## DMZ Firewall
+
+## Zenoss
+
+## Snort
+
+## Mail Server
+
+## Tools
+
+## Hidden Files
+
