@@ -25,7 +25,7 @@ During the Scavenger Hunt on the Cybersecurity Range, we familiarized ourselves 
 
 ## The Network Map
 
-A cool feature of the Range is that we were provided with a network map that provided with the services and username and passwords for us to access all the different servers. Most networks don't have this, and a lot of businesses forget to write down critical information that could aid Cybersecurity professionals in their hunt for incidents. 
+A cool feature of the Range is that we were provided with a network map that provided with the services and username and passwords for us to access all the different servers. Most networks don't have this, and a lot of businesses forget to write down critical information that could aid Cybersecurity professionals in their hunt for incidents.
 
 ## Palo Alto Firewall
 
@@ -59,7 +59,7 @@ You can manage users and change their passwords or unlock their accounts:
 
 ## DMZ Firewall
 
-A DMZ is a part of the network that has special rules for services that are exposed to the internet. 
+A DMZ is a part of the network that has special rules for services that are exposed to the internet.
 
 ![DMZ](/scavenger-hunt/img/scavengerHunt_dmzFirewall_adminPage.png "DMZ Firewall")
 
