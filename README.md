@@ -54,5 +54,9 @@ During the Scavenger Hunt on the Cybersecurity Range, we familiarized ourselves 
 - [Project Document](/scavenger-hunt/team2-sv-document.md)
 - [Project Presentation](/scavenger-hunt/team2-sv-presentation.pptx)
 
+## Scenario 1: Script Kiddie
+In this simulation on the Cybersecurity Range, we were tasked with reviewing data to discover an event, then evaluate that event to discern whether an investigation was needed. Once enough evidence was found to confirm the occurence of an incident, we opened an investigation and gathered more data to understand where the breach was and what its purpose was. After the investigation was completed and we had identified relevant data, we were able to contain, eradicate, and remediate the event. Finally we concluded with reflecting on actionable lessons learned to prepare for the next possible incident.
+- [Project Document](/scenario-one/team2-sv-document.md)
+- [Project Presentation](/scenario-one/team2-sv-presentation.pptx)
 
 
