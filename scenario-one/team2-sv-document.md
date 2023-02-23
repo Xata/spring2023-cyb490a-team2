@@ -11,7 +11,7 @@ Image of the defaced website:
 
 #### 1. Port Scanning
 
-![Port Scanning](/port-scanning-pwd-guessing.png)
+![Port Scanning](/scenario-one/img/port-scanning-pwd-guessing.png)
 
 #### 2. SSH Fuzzing
 
