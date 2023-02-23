@@ -9,11 +9,11 @@ Image of the defaced website:
 
 ### Alert
 
-#### 1. Port Scanned
+#### 1. Port Scanning
 
-![Port Scanning and Password Guessing] (/scenario-one/img/port-scanning-pwd-guessing.png)
+![Port Scanning](/port-scanning-pwd-guessing.png)
 
-#### 2. SSH Fuzzed
+#### 2. SSH Fuzzing
 
 #### 3. Brute Force Attack
 
@@ -41,7 +41,7 @@ Extracted png from archive, set as the homepage for ogani.com.
 
 #### 10. Lessons Learned
 
-The Security Team has compilied a number of policy and technical improvements to implement that will improve organizational security, reduce cyber vulnerability, and potentially reduce the impact of future cyber incidents.
+The Security Team has compilied a number of policy and technical improvements to implement that will improve organizational security, reduce cyber vulnerability, and potentially reduce the impact of future cyber incidents. These are listed under "Recommendations" below.
 
 ## What: Website Defacing
 
