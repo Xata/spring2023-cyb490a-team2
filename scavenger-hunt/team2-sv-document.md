@@ -41,7 +41,7 @@ The firewall is able to track ICMP requests on the network.
 
 Qradar is a Security Information and Event Mangement (SIEM) system. SIEM systems are used for a number of functions, the four most common being log collection, event correlation, alert generation, and incident response. These functions serve to facilitate proactive monitoring and protecting of an organization's network and systems from security threats.
 
-![Qradar image](/scavengerHunt_qradar_00.png)
+![Qradar image](/scavenger-hunt/img/scavengerHunt_qradar_00.png "Qradar image")
 
 In the scavenger hunt, we were tasked with going to a specific IP address and tracking it in the log. Due to how the network was setup, we were not able to find the traffic in the SIEM's log because it was not connected to that host.
 
