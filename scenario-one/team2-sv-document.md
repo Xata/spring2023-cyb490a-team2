@@ -10,25 +10,28 @@ On Febuary 17th, 2023, the Ogani website was defaced by the Automatic Red Team. 
 
 ![Incident Artifact](/scenario-one/img/hacked_artifact.png)
 
-## Incident Timeline
+## When
 
-### Alert
+### Incident Timeline
 
-#### 1. Port Scanning
+12:33 AM - External IP Address [199.203.100.172] pinged the network.
+12:39 AM - Admin Login Failure.
+12:44 AM - Outside IP Address Able to Access A Server [172.16.100.22].
+12:56 AM - Last firewall reference of external IP address.
 
-An external IP address conducted reconnaissance on the Organization via a port scan to learn which ports were open and listening, as well as possibly learn about the firewall setup of the system. Once the actor verified an open target port, they proceeded to the next phase of their attack.
+#### 1. Alert - Port Scanning
+
+An external IP address [199.203.100.172] conducted reconnaissance on the Organization via a port scan to learn which ports were open and listening, as well as possibly learn about the firewall setup of the system. Once the actor verified an open target port, they proceeded to the next phase of their attack.
 
 ![Port Scanning](/scenario-one/img/port-scanning-pwd-guessing.png)
 
-#### 2. SSH Fuzzing
+#### 2. Verfied True Positive - SSH Fuzzing
 
-The actor conducted dynamic testing, or fuzzing, on the SSH to find a vulnerability by injecting random or invalid inputs to cause a fault to occur. This fault could result in an exploitable unexpected behavior-- in this case, it did and granted the actor access to a deeper layer of our network.
+The actor conducted dynamic testing, or fuzzing, on the SSH port [22] to find a vulnerability by injecting random or invalid inputs to cause a fault to occur. This fault resulted in an exploitable unexpected behavior-- in this case granting the actor access to a deeper layer of the network.
 
-#### 3. Brute Force Attack
+#### 3. Begin Incident Investigation - Brute Force Attack
 
 The actor gained root access to the network via a brute force attack. This attack employs the strategy of password guessing commonly used passwords or passwords that seem likely given data gathered about an individual. The password that granted the actor access is considered weak by industry standards: [password here].
-
-### Investigation
 
 #### 4. Installed nettools - Ran whoami
 
@@ -60,17 +63,13 @@ Website defacing is when an attacked makes unauthorized changes to a homepage. T
 
 ### What was affected?
 
-One of the webservers was accessed. The webserver that was accessed was CNT-DMZ-Apache2. It was an Apache2 webserver that was hosting the Ogani website.
-
-## When
-
-### Timeline of Events
+The webserver CNT-DMZ-Apache2 [172.16.100.22] was accessed by an external IP address [199.203.100.172]. The changes implemented by the external IP impacted the Ogani website, replacing the existing homepage with a png they extracted from an archive they downloaded over the course of their attack.
 
 ## Where
 
 The Ogani website is hosted in the apache2 server, near the demararcation point of the organizations network; specifically allocated in the CNT-DMZ Palo Firewall.
 
-[ somehow insert photo here ]
+![Network Topology With DMZ Outlined with Blue Rectangle](/scenario-one/img/network-topology-dmz.png)
 
 ## Recommendations
 
