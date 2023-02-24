@@ -63,16 +63,16 @@ One of the webservers was accessed. The webserver that was accessed was CNT-DMZ-
 ## Where
 
 ## Recommendations
-There are several policies and new technologies that can be implemented to negate a similar attack. The recommendations have been split into two sections Policy and Technical. 
+There are several policies and new technologies that can be implemented to negate a similar attack. The recommendations have been split into two sections Policy and Technical. It is recommended that the following be implemented to ensure that a similar defacing incident doesn't happen again. In addition to preventing another defacing incident, the following recommendations will also reduce the attack surface of the organization overall.
 
 ### Policy
 #### Block SSH Access from Internet
 
-SSH should not be accessible from outside the internal network. This is how the attacked gained access to the network. All services should have Port 22 blocked from the outside. SSH should only be accessible by users connected to the internal network. 
+SSH should not be accessible from outside the internal network. This is how the attacked gained access to the network. All 1services should have Port 22 blocked from the outside. SSH should only be accessible by users connected to the internal network. 
 
 #### Enable Timestamps for Commands on Linux-based Servers
 
-During the investigation of the attack. Security Analysts were unable to easily get the time that commands were executed by the attacker. Enabling timestamps in the history command will allow analysts to review commands exectuted in the shell.
+During the investigation of the attack. Security Analysts were unable to easily get the time that commands were executed by the attacker. Enabling timestamps in the history command will allow analysts to review commands executed in the shell.
 
 ##### References
 - GNU: [9.1 Bash History Facilities](https://www.gnu.org/software/bash/manual/html_node/Bash-History-Facilities.html)
@@ -90,8 +90,8 @@ The default passwords for admin or root need to be changed to something more com
 
 ##### Password Complexity Rule Recommendations
 
-Below are a list of complexity requirements recommendations:
-1. 16 character minimum length
+Below is a list of complexity requirements recommendations:
+1. 16-character minimum length
 2. At least 1 uppercase letter
 3. At least 1 lowercase letter
 4. Does not contain company name or related assets
@@ -129,8 +129,7 @@ Fail2Ban is a simple utility that scans log files and bans IPs that show too man
 
 #### Implement Uncomplicated Firewall for Apache Servers on the DMZ Subnet
 
-Uncomplicated Firewall (or UFW for short), is a utility to manage firewalls with iptables on Ubuntu and Debian distrobutions of Linux. Every service should not be accessible from the internet on the servers running Apache. This will reduce the attack surface on critical business websites. For example: Use the default UFW rules for Apache when enabling UFW on the apache servers. 
+Uncomplicated Firewall (or UFW for short) is a utility to manage firewalls with iptables on Ubuntu and Debian distributions of Linux. Every service should not be accessible from the internet on the servers running Apache. This will reduce the attack surface on critical business websites. For example: Use the default UFW rules for Apache when enabling UFW on the Apache servers. 
 
 ##### References
 - UFW: [UFW Repository](https://launchpad.net/ufw)
-
