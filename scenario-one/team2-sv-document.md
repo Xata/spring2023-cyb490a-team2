@@ -66,7 +66,7 @@ Website defacing is when an attacked makes unauthorized changes to a homepage. T
 
 ### What was affected?
 
-The webserver CNT-DMZ-Apache2 [172.16.100.22] was accessed by an external IP address [199.203.100.172]. The changes implemented by the external IP impacted the Ogani website, replacing the existing homepage with a png they extracted from an archive they downloaded over the course of their attack.
+The webserver CNT-DMZ-Apache2 [172.16.100.22] was accessed by an external IP address [199.203.100.172]. The changes implemented by the external IP impacted the Ogani website, replacing the existing homepage with a png they extracted from an archive downloaded over the course of their attack.
 
 ## Where
 
