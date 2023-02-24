@@ -67,7 +67,9 @@ The webserver CNT-DMZ-Apache2 [172.16.100.22] was accessed by an external IP add
 
 ## Where
 
-The Ogani website is hosted in the apache2 server, near the demararcation point of the organizations network; specifically allocated in the CNT-DMZ Palo Firewall.
+The DMZ (De-Militarized Zone) is an area in the network that separates the LAN (Local Area Network) from untrusted networks (the internet). It serves as an ‘open interface’ for users to access the internet and other networks while keeping the internal network private and secure.
+
+The Ogani website is hosted in the apache2 server, near the demarcation point of the organizations LAN; specifically allocated in the CNT-DMZ Palo Firewall.
 
 ![Network Topology With DMZ Outlined with Blue Rectangle](/scenario-one/img/network-topology-dmz.png)
 
