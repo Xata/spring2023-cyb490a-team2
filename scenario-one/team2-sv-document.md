@@ -68,7 +68,9 @@ One of the webservers was accessed. The webserver that was accessed was CNT-DMZ-
 
 ## Where
 
-The Ogani website is hosted in the apache2 server, near the demararcation point of the organizations network; specifically allocated in the CNT-DMZ Palo Firewall.
+The DMZ (De-Militarized Zone) is an area in the network that separates the LAN (Local Area Network) from untrusted networks (the internet). It serves as an ‘open interface’ for users to access the internet and other networks while keeping the internal network private and secure.
+
+The Ogani website is hosted in the apache2 server, near the demarcation point of the organizations LAN; specifically allocated in the CNT-DMZ Palo Firewall.
 
 [ somehow insert photo here ]
 
