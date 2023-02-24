@@ -61,6 +61,9 @@ One of the webservers was accessed. The webserver that was accessed was CNT-DMZ-
 ### Timeline of Events
 
 ## Where
+The Ogani website is hosted in the apache2 server, near the demararcation point of the organizations network; specifically allocated in the CNT-DMZ Palo Firewall.
+
+[ somehow insert photo here ]
 
 ## Recommendations
 There are several policies and new technologies that can be implemented to negate a similar attack. The recommendations have been split into two sections Policy and Technical. It is recommended that the following be implemented to ensure that a similar defacing incident doesn't happen again. In addition to preventing another defacing incident, the following recommendations will also reduce the attack surface of the organization overall.
