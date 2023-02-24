@@ -15,8 +15,11 @@ On Febuary 17th, 2023, the Ogani website was defaced by the Automatic Red Team. 
 ### Incident Timeline
 
 12:33 AM - External IP Address [199.203.100.172] pinged the network.
+
 12:39 AM - Admin Login Failure.
+
 12:44 AM - Outside IP Address Able to Access A Server [172.16.100.22].
+
 12:56 AM - Last firewall reference of external IP address.
 
 #### 1. Alert - Port Scanning
