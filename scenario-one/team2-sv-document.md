@@ -36,23 +36,31 @@ The actor conducted dynamic testing, or fuzzing, on the SSH port [22] to find a 
 
 The actor gained root access to the network via a brute force attack. This attack employs the strategy of password guessing commonly used passwords or passwords that seem likely given data gathered about an individual. The password that granted the actor access is considered weak by industry standards: [password here].
 
-#### 4. Installed nettools - Ran whoami
+#### 4. Installed NetTools - Ran whoami
+
+Next the actor ran a whoami command to verify where they were in the network and their credentials. Once clear they had admin credentials they downloaded nettools.
 
 #### 5. File Modifications
 
-Created working directory in temp file - anyone can read/write.
+After installing nettools, they created a working directory in a temporary file - this is important because anyone can read/write a temp file.
 
-#### 6. Ran wget to fetch archive
+![NetTools Download and Working Directory Created](/scenario-one/img/nettools-working-directory.png)
+
+#### 6. Ran wget to Fetch Archive
+
+![Extracted Archive Contents](/scenario-one/img/workingdir.png)
 
 #### 7. Changed Apache Settings
 
 Extracted png from archive, set as the homepage for ogani.com.
 
-### Containment, Eradication, Remediation
+#### 8. Containment & Eradication - Checked Firewall
 
-#### 8. Checked Firewall
+Next the Security Team reviewed Firewall logs to trace the whereabout of the external IP.
 
-#### 9. Restored Website
+#### 9. Remediation - Restored Website
+
+Once the external IP address was confirmed to no longer be active in the network- and no other suspicious IP addresses were present, the Security Team restored the ogani website with its most recent files still present in the server.
 
 #### 10. Lessons Learned
 
