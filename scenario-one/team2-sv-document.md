@@ -5,7 +5,8 @@ On Febuary 17th, 2023, the Ogani website was defaced by the Automatic Red Team. 
 Image of the defaced website:
 ![Defaced Website](/scenario-one/img/hacked_website.png)
 
-
+Artifacts from the Incident:
+![Incident Artifact](/scenario-one/img/hacked_artifact.png)
 
 ## Incident Timeline
 
@@ -37,7 +38,13 @@ One of the webservers was accessed. The webserver that was accessed was CNT-DMZ-
 ## Where
 
 ## Recommendations
+There are several policies and new technologies that can be implemented to negate a similar attack. The recommendations have been split into two sections Policy and Technical. 
 
-1. Block external SSH acccess 
-2. Enforce keys for SSH access
-3. Enable timestamps for Linux terminal commands
+### Policy
+#### Block SSH Access from Internet
+#### Enable Timestamps for Commands on Linux-based Servers
+#### Disable Default Admin/Root Access from SSH
+#### Enforce Password Complexity for Default Admin/Root
+### Technical
+#### Enforce Keys for SSH Access
+#### Implement Fail2Ban
