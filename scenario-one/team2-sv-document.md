@@ -44,7 +44,7 @@ Next the actor ran a whoami command to verify where they were in the network and
 
 After installing nettools, they created a working directory in a temporary file - this is important because anyone can read/write a temp file.
 
-![NetTools Download and Working Directory Created](/scenario-one/img/nettools-working-directory.png)
+![NetTools Download and Working Directory Created](/scenario-one/img/Nettools-Working-Directory.png)
 
 #### 6. Ran wget to Fetch Archive
 
